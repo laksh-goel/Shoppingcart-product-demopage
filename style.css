@@ -1,0 +1,66 @@
+*{
+  margin:0;
+    padding:0;
+}
+
+
+body{
+  font-family:sans-serif;
+  line-height:1.4;
+}
+h1{
+  background-color:#f0f0f0c6;
+  padding:10px 0;
+  text-align:center;
+  text-transform:uppercase;
+  }
+
+img{
+  padding-bottom:10px;
+}
+ul{
+  margin-left:20px;
+}
+.product{
+  border:5px solid black;
+  width:825px;
+  margin:50px auto;
+}
+.price{
+  font-size:24px;
+}
+.free{
+  margin-bottom:20px;
+}
+.more-info:link, .more-info:visited{
+  color:black;
+ 
+}
+.more-info:hover, .more-info:active{
+  text-decoration:none;
+}
+.inside{
+  margin-top:20px;
+  margin-bottom:20px;
+  }
+li{
+  margin-bottom:5px;
+}
+.add-cart{
+  background-color:#000;
+  color:#fff;
+  text-transform:uppercase;
+  border:none;
+  font-size:20px;
+  cursor:pointer;
+  padding:15px;
+  width:100%;
+ }
+
+.add-cart:hover{
+  color:#000;
+  background-color:#fff;
+}
+
+
+
