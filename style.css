@@ -1,66 +1,42 @@
-*{
-  margin:0;
-    padding:0;
-}
-
-
-body{
-  font-family:sans-serif;
-  line-height:1.4;
-}
-h1{
-  background-color:#f0f0f0c6;
-  padding:10px 0;
-  text-align:center;
-  text-transform:uppercase;
-  }
-
-img{
-  padding-bottom:10px;
-}
-ul{
-  margin-left:20px;
-}
-.product{
-  border:5px solid black;
-  width:825px;
-  margin:50px auto;
-}
-.price{
-  font-size:24px;
-}
-.free{
-  margin-bottom:20px;
-}
-.more-info:link, .more-info:visited{
-  color:black;
+<article class="product"> 
+  <h1> Converse Chuck Taylor All Star Low Top</h1>
+<img  src="https://i.ibb.co/Jr7Wh1d/challenges.jpg"
+       alt="shoe image"
+       width="200"
+       height"200"
+    />
+  <p class="price">
+    <strong>$65.00</strong>
+  </p>
+  <p class="free"> Free shipping </p>
+  <p class="sale">SALE</p>
+  <p> Ready to dress up or down,these classic canvas Chucks are an everyday wardrobe staple</p>
+  <a href="https://converse.com" class="more-info" target="blank">More information &rarr;</a>
+  <div class="colors">
+    <div class="color"></div>
+     <div class="color color-blue"></div>
+     <div class="color color-red"></div>
+     <div class="color color-yellow"></div>
+     <div class="color color-green"></div>
+     <div class="color color-brown"></div>
+    
+  </div>
+  <h2 class="inside"> Product details </h2>
+  <ul>
+    <li>
+      <p> Lightweight,durable canvas sneaker</p>
+    </li>
+    <li>
+      <p> Lightly padded footbed for added comfort </p>
+    </li>
+    <li>
+      <p> Iconic Chuck Taylor ankle patch.
+    </li>
+  </ul>
+  <button class="add-cart" > Add to cart </button>
+  
  
-}
-.more-info:hover, .more-info:active{
-  text-decoration:none;
-}
-.inside{
-  margin-top:20px;
-  margin-bottom:20px;
-  }
-li{
-  margin-bottom:5px;
-}
-.add-cart{
-  background-color:#000;
-  color:#fff;
-  text-transform:uppercase;
-  border:none;
-  font-size:20px;
-  cursor:pointer;
-  padding:15px;
-  width:100%;
- }
-
-.add-cart:hover{
-  color:#000;
-  background-color:#fff;
-}
-
+  
+  
 
 
